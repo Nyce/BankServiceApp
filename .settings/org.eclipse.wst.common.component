@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BankService">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jersey-bundle-1.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Development/Software/Jars/jersey-1.x/jersey-bundle-1.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm-3.3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Development/Software/Jars/jersey-1.x/asm-3.3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BankModel.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BankModel/BankModel">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/BankService/build/classes"/>
+        <property name="context-root" value="BankServiceApp"/>
+    </wb-module>
+</project-modules>
