@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-import com.capitalone.bank.model.*;
+import com.bank.model.*;
 
 
 public class DAOClient {
