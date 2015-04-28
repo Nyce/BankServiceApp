@@ -14,8 +14,7 @@ import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.capitalone.bank.model.Customer;
-import com.capitalone.bank.model.User;
+import com.bank.model.Customer;
 
 public class CustomerDAO {
 
@@ -42,7 +41,7 @@ public class CustomerDAO {
 		pstmt.setString(6, customer.getEmail());
 		pstmt.setString(7, customer.getDob());
 		pstmt.setString(8, customer.getSex());
-		pstmt.setLong(9, customer.getZip());
+		pstmt.setString(9, customer.getZip());
 		
 		System.out.println(pstmt.executeUpdate());
 		
@@ -86,7 +85,7 @@ public class CustomerDAO {
 			 String address = rs.getString("address");
 			 String city = rs.getString("city");
 			 String state = rs.getString("firstname");
-			 Long zip = rs.getLong("zipcode");
+			 String zip = rs.getString("zipcode");
 			 String email= rs.getString("email");
 			 String dob = rs.getString("dob");
 			 String sex= rs.getString("sex");
@@ -172,7 +171,7 @@ public class CustomerDAO {
 		pstmt.setString(6, customer.getEmail());
 		pstmt.setString(7, customer.getDob());
 		pstmt.setString(8, customer.getSex());
-		pstmt.setLong(9, customer.getZip());
+		pstmt.setString(9, customer.getZip());
 		pstmt.executeUpdate();
 		System.out.println("Key is " + customerid);
 		System.out.println("Object updated");
@@ -206,9 +205,10 @@ public class CustomerDAO {
 			 String address = rs.getString("address");
 			 String city = rs.getString("city");
 			 String state = rs.getString("firstname");
-			 Long zip = rs.getLong("zipcode");
+			 String zip = rs.getString("zipcode");
 			 String email= rs.getString("email");
-			 String dob = rs.getString("dob");			 String sex= rs.getString("sex");
+			 String dob = rs.getString("dob");			 
+			 String sex= rs.getString("sex");
 			 customer.setCustomerid(customerid);
 			 customer.setFirstname(firstname);
 			 customer.setLastname(lastname);

@@ -16,9 +16,9 @@ import java.sql.PreparedStatement;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.capitalone.bank.model.Account;
-import com.capitalone.bank.model.Customer;
-import com.capitalone.bank.model.User;
+import com.bank.model.Account;
+import com.bank.model.Customer;
+import com.bank.model.User;
 
 
 public class AccountDAO {

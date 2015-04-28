@@ -14,9 +14,7 @@ import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.capitalone.bank.model.Account;
-import com.capitalone.bank.model.Customer;
-import com.capitalone.bank.model.Transaction;
+import com.bank.model.Transaction;
 
 public class TransactionDAO {
 	

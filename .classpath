@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/BankModel"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -18,5 +17,6 @@
 	<classpathentry kind="lib" path="C:/Development/Software/Jars/mockito-all-1.9.0-rc1.jar"/>
 	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jersey-bundle-1.6.jar"/>
 	<classpathentry kind="lib" path="C:/Development/Software/Jars/jaxrs-ri/jsr311-api-1.1.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BankModels"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

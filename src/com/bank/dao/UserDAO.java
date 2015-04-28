@@ -11,26 +11,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.PreparedStatement;
 
-import com.capitalone.bank.model.Customer;
-import com.capitalone.bank.model.User;
-
-
-
-
-
-
-
-
-
-
+import com.bank.model.User;
 
 import java.sql.ResultSet;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-import javax.swing.JOptionPane;
 
 
 public class UserDAO {
